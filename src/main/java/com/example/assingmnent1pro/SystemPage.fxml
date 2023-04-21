@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assingmnent1pro.SystemPageController">
+    <children>
+        <Label layoutX="28.0" layoutY="48.0" stylesheets="@styleSystem.css" text="Curreny Conversion System">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="158.0" layoutY="163.0" stylesheets="@styleSystem.css" text="USD">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="396.0" layoutY="163.0" stylesheets="@styleSystem.css" text="NIS">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtUSD" layoutX="104.0" layoutY="213.0" />
+        <TextField fx:id="txtNIS" layoutX="339.0" layoutY="213.0" />
+        <Label layoutX="280.0" layoutY="211.0" stylesheets="@styleSystem.css" text="TO">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Button fx:id="btnLogout" layoutX="488.0" layoutY="51.0" mnemonicParsing="false" onAction="#showLogout" prefHeight="30.0" prefWidth="67.0" stylesheets="@styleSystem.css" text="Logout" />
+        <Button fx:id="btnConvert" layoutX="260.0" layoutY="328.0" mnemonicParsing="false" onAction="#showConvert" prefHeight="30.0" prefWidth="80.0" stylesheets="@styleSystem.css" text="Convert" />
+    </children>
+</AnchorPane>

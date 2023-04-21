@@ -1,0 +1,9 @@
+.label{
+    -fx-text-fill:rgb(9, 0, 93);
+
+
+}
+.button{
+    -fx-background-color:blue;
+    -fx-text-fill:white;
+}
